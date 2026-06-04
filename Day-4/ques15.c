@@ -1,4 +1,4 @@
-// to check given number is an Armstrong number or not
+// to check given number is an Armstrong number or not 
 #include <stdio.h>
 
 int digit_count(int num)

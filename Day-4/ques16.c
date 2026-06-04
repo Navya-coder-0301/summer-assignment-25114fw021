@@ -1,4 +1,4 @@
-//to print armstrong numbers in a range
+//to print armstrong numbers in a range 
 #include <stdio.h>
 int digit_count(int num)
 {
