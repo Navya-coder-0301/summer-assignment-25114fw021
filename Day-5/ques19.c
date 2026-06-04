@@ -1,4 +1,4 @@
-//to print factors of a number
+//to print factors of a number given
 #include<stdio.h>
 int main()
 {

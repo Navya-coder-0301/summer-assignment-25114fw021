@@ -1,4 +1,4 @@
-//to find largest prime factor of a number
+//to find largest prime factor of a number given 
 #include <stdio.h>
 int prime(int n)
 {

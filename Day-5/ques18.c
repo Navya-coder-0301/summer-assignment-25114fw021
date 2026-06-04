@@ -1,4 +1,4 @@
-//to check whether the given number is strong number or not
+//to check whether the given number is strong number
 #include <stdio.h>
 int fact(int n)
 {
