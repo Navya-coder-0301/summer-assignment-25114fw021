@@ -1,4 +1,4 @@
-//to genersate the first n terms of the Fibonacci series
+//to generate the first n terms of the Fibonacci series
 #include <stdio.h>
 int main ()
 {
