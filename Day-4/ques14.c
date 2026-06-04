@@ -1,4 +1,4 @@
-// to find nth term of the Fibonacci sequence
+// to find nth term of the Fibonacci series
 #include <stdio.h>
 int main ()
 {
