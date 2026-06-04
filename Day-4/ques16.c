@@ -10,7 +10,7 @@ int digit_count(int num)
     }
     return count;
 }
-int pow(int base, int exp)
+int pow(int base, int exp) 
 {
     int result=1;
     for(int i=0; i<exp; i++)

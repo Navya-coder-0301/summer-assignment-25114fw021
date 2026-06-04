@@ -5,7 +5,7 @@ int main ()
     int a=0,b=1,c,n,i;
     printf("Enter the number of terms: ");
     scanf("%d",&n);
-    if (n<=0)
+    if (n<=0) 
     {
         printf("Please enter a positive integer.");
     }
