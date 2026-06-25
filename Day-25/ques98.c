@@ -1,0 +1,43 @@
+//to find common characters
+#include <stdio.h>
+
+void commonCharacters(char str1[], char str2[])
+{
+    int i, j;
+    int found = 0;
+
+    printf("\nCommon Characters: ");
+
+    for(i = 0; str1[i] != '\0'; i++)
+    {
+        for(j = 0; str2[j] != '\0'; j++)
+        {
+            if(str1[i] == str2[j])
+            {
+                printf("%c ", str1[i]);
+                found = 1;
+                break;
+            }
+        }
+    }
+
+    if(found == 0)
+    {
+        printf("No common characters found.");
+    }
+}
+
+int main()
+{
+    char str1[100], str2[100];
+
+    printf("Enter first string: ");
+    scanf("%s", str1);
+
+    printf("Enter second string: ");
+    scanf("%s", str2);
+
+    commonCharacters(str1, str2);
+
+    return 0;
+}
